@@ -1,0 +1,61 @@
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.);
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    background-image: url('https://source.unsplash.com/2000x1000/?universe');
+    font-size: 120%;
+}
+
+.temp {
+    margin: 0px;
+}
+
+element.style {
+    margin: 0px;
+}
+
+.Card {
+    background: teal;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    opacity: 0.9;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: #7c7c;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.ssearch{
+    border: none;
+    outline: none;
+    padding: .8em;
+    background-color: black;
+    color: white;
+    font-size: 120%;
+    width: 50%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
